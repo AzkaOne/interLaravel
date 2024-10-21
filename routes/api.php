@@ -13,4 +13,3 @@ Route::get('/user', function (Request $request) {
 
 Route::apiResource('kategoris', KategoriController::class);
 Route::apiResource('bukus', BukuController::class);
-Route::get('bukuBykategori/{kategori_id}', [BukuController::class, 'getBukuByKat']);

@@ -81,14 +81,5 @@ class BukuController extends Controller
         ],200);
     }
 
-    public function getBukuByKat($kategori_id)
-    {
-        $buku = Buku::where('kategori_id', $kategori_id)->get();
-
-        return response()->json([
-            'status' => true,
-            'message' => 'Menampilkan Buku Berdasarkan kategori_id',
-            'data' => $buku
-        ],200);
-    }
+    
 }

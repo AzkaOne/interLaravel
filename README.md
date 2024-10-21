@@ -13,7 +13,3 @@ TABLE BUKU
     5.![PUT pda table buku untuk updat/memperbarui data](image.png)
     6.![DELET data table buku sesuai id](delbuk.png)
 
-TUGAS
-    1.![VALIDASI pada table buku dimana require wajib diisi dan dan nilai min 1000](image-1.png)
-    2.![gGET pda tabel buku berdasarkan kategori id sehinga dapat menampilkan data pda buku yang sesuai id kategori](getbukbyid-1.png)
-    3.![NGROK yang dijalankan pda laptop teman](ngrok.jpeg)
